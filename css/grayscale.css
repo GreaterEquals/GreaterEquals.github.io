@@ -252,16 +252,20 @@ a:focus {
     padding-top: 100px;
 }
 
-.download-section {
-    width: 100%;
-    padding: 50px 0;
-    color: #fff;
+.about-us{
     background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: #000;
+    width: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    padding: 50px 0;
+
+}
+.download-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
 }
 
 #map {
@@ -272,11 +276,11 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 70px;
     }
 
     .download-section {
-        padding: 100px 0;
+        padding: 70px 0;
     }
 
     #map {
